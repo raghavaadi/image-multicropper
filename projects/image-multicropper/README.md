@@ -6,14 +6,13 @@ A simple Angular component to allow users to split an image into multiple parts 
 
 To install this library, run:
 
-npm install @your-npm-username/image-multicropper
+npm install image-multicropper
 
-Replace @your-npm-username with your npm username or the name you've published the library under.
 
 ## Usage
 Import the ImageMulticropperModule in your Angular module:
-
-import { ImageMulticropperModule } from '@your-npm-username/image-multicropper';
+```typescript
+import { ImageMulticropperModule } from 'image-multicropper';
 
 @NgModule({
   declarations: [AppComponent],
@@ -21,15 +20,16 @@ import { ImageMulticropperModule } from '@your-npm-username/image-multicropper';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-
+```
 Use the component in your Angular component:
+```html
 <lib-image-multicropper [parts]="2" [canvasWidth]="400" [canvasHeight]="851"></lib-image-multicropper>
-
+```
 
 ## Attributes
-parts (default = 2): Number of segments you want to divide the image into.
-canvasWidth (default = 400): Width of the canvas.
-canvasHeight (default = 851): Height of the canvas.
+**parts (default = 2)**: Number of segments you want to divide the image into.
+**canvasWidth (default = 400)**: Width of the canvas.
+**canvasHeight (default = 851)**: Height of the canvas.
 
 ## Events
 onFileChange: Triggered when an image is uploaded. Opens a file dialog to select an image.

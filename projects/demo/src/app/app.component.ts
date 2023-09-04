@@ -9,4 +9,8 @@ export class AppComponent {
   title = 'demo';
   customWidth: number = 500;
 customHeight: number = 900;
+slicedImageUrls: string[] = [];
+onSlicedImagesReceived(images: Blob[]) {
+  this.slicedImageUrls = images.map(image => URL.createObjectURL(image));
+}
 }

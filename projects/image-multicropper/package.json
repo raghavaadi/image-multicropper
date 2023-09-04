@@ -1,10 +1,18 @@
 {
   "name": "image-multicropper",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "peerDependencies": {
     "@angular/common": "^16.2.0",
     "@angular/core": "^16.2.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raghavaadi/image-multicropper/tree/main/projects/image-multicropper"
+},
+"homepage": "https://github.com/raghavaadi/image-multicropper/blob/main/projects/image-multicropper/README.md",
+"bugs": {
+    "url": "https://github.com/raghavaadi/image-multicropper/issues"
+},
   "dependencies": {
     "tslib": "^2.3.0"
   },

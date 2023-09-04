@@ -307,7 +307,9 @@
 
 
 
-  <lib-image-multicropper [canvasWidth]="customWidth" [canvasHeight]="customHeight" [parts]="3"></lib-image-multicropper>
-
+  <lib-image-multicropper  (slicedImages)="onSlicedImagesReceived($event)" [canvasWidth]="customWidth" [canvasHeight]="customHeight" [parts]="3"></lib-image-multicropper>
+  <div *ngFor="let imageUrl of slicedImageUrls">
+    <img [src]="imageUrl" alt="Sliced Image">
+</div>
 </div>
 

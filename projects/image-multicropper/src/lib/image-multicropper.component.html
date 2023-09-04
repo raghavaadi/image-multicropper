@@ -1,0 +1,6 @@
+<input title="filename" type="file" (change)="onFileChange($event)" accept="image/*" />
+<canvas #canvas></canvas>
+<button (click)="cropImage()">Crop</button>
+<button (click)="toggleCropping()">Toggle Crop Mode</button>
+<button (click)="cropSelectedArea()">Crop Selected Area</button>
+
