@@ -8,6 +8,17 @@ To install this library, run:
 
 npm install image-multicropper
 
+## crop Image
+
+![Screenshot of Cropping image](assets/cropping.png)
+
+## split image 
+
+![Screenshot of splitting](assets/split%20image.png)
+
+## output of split image 
+
+![Screenshot after splitting](assets/splitted%20image%20.png)
 
 ## Usage
 Import the ImageMulticropperModule in your Angular module:

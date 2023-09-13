@@ -1,0 +1,3 @@
+ng build image-multicropper
+cd \angular-lib\image-multicropper-workspace\dist\image-multicropper
+npm publish --access public
