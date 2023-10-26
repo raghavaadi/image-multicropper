@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build":""
+    "build-demo":"ng build image-multicropper  && ng serve demo    ",
+    "start-demo": "ng build image-multicropper && cd path/to/demo && ng serve"
   },
   "private": true,
   "dependencies": {

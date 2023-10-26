@@ -175,13 +175,7 @@ export class ImageMulticropperComponent implements AfterViewInit {
 
     // Optionally: Update the internal image to be the cropped one (this might be useful in case of further operations on the image)
     const dataURL = this.canvasRef.nativeElement.toDataURL();
-    // this.image = new Image();
-    // this.image.src = dataURL;
-    // this.image.onload = () => {
-    //   this.ctx!.drawImage(this.image!, 0, 0, width, height);
-    // };
 
-    // Reset the selection for future crops
     this.selectionStart = { x: 0, y: 0 };
     this.selectionEnd = { x: 0, y: 0 };
     this.isSelecting = false;
